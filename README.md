@@ -1,10 +1,15 @@
 # Turnover Dropout
 
-This is a simple pytorch implementation of [turnover dropout](https://arxiv.org/abs/2012.04207) (Kobayashi et al. 2020).
+This is a simple pytorch implementation of [turn-over dropout](https://arxiv.org/abs/2012.04207) (Kobayashi et al. 2020).
+The method can estimate learning influence of a training instance on another instance via dropout using instance-specific masks and their flipped masks.
 
 
+### Example
 
-
+```
+pip install .
+python run_data_cleansing.py
+```
 
 
 
